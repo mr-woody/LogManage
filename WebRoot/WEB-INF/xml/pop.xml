@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syspops>
+	<popitem name="日志管理" code="A002" icon="icon-list-alt icon-white" url="actions/log/newLogActions.action?method=initializeSelectDays"></popitem>
+	<popitem name="管理用户账号" code="A003" icon="icon-user icon-white" url="actions/staff/staffActions.action?method=getStaffInfoList"></popitem>
+	<popitem name="角色管理" code="A004" icon="icon-eye-open icon-white" url="actions/role/roleActions.action?method=getRoleList"></popitem>
+</syspops>

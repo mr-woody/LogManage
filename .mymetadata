@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LogManage"
+  id="myeclipse.1401723699691"
+  context-root="/LogManage"
+  j2ee-spec="6.0"
+  archive="LogManage.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

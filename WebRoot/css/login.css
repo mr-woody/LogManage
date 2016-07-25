@@ -1,0 +1,21 @@
+* { margin: 0px auto; padding: 0px; }
+body { background-color: #2E363F;height:100% }
+.main { background-color: #2E363F;margin-top: 140px; width: 535px; height: 350px; }
+/**----------------top start--------------------**/
+.topline { position: relative; top: 30px; width: 520px; border-top: 1px solid #3F4954; }
+.logoline { position: relative; top: 40px; left: 20px; width: 300px; height: 50px; }
+.logoline img { width: 50px; height: 50px; }
+.logoline span { position: relative; top: 5px; color: #ffffff; font-size: 28px; font-weight: bold; }
+/**----------------top end--------------------**/
+/**----------------content start--------------------**/
+.inputline { position: relative;top: 80px; width: 530px; height: 120px; }
+.dvusername { position: relative; width: 452px; height: 40px;  background-color: #28B779; }
+.dvpassword { position: relative; top: 30px; width: 452px; height: 40px; background-color: #FFB848; }
+.inputline i { margin-left: 20px;margin-top:10px; }
+.inputline input {position: absolute; margin-left: 20px; height: 30px; width: 390px; border-radius: 0 0px 0px 0; }
+/**----------------content end--------------------**/
+/**----------------bottom start--------------------**/
+.bottomline { position: relative; top: 100px; width: 520px; border-top: 1px solid #3F4954; }
+.loginpanel { position: relative;color:#FFFFFF; top: 10px; width: 450px;height:40px; }
+.btn-primary { border-radius: 0 0px 0px 0; }
+/**----------------bottom end--------------------**/

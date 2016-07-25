@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.multipart.maxSize" value="1000000000" />
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+	<!-- 设置字符集 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!--设置是否为开发模式，部署后设置为false -->
+	<constant name="struts.devMode" value="true" />
+	<!--自动加载struts配置文件，开发建议为true -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!-- 设置游览器是否使用浏览器缓存，开发建议为false -->
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<!-- 设置统一字符集 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- 是否启用OGNL表达式 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant> 
+	<!-- 设置集成spring框架 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 默认后缀名 -->
+	<constant name="struts.action.extension" value="do,action" />
+	<!-- 标识Struts注解的所在包 -->
+	<constant name="actionPackages" value="lms.code.action" />
+	
+	<package name="ajaxPackage" extends="json-default" namespace="/actions/ajax/"></package> 
+	<package name="logPackage" extends="struts-default" namespace="/actions/log/"></package> 
+	<package name="projectPackage" extends="struts-default" namespace="/actions/project/"></package> 
+	<package name="rolePackage" extends="struts-default" namespace="/actions/role/"></package>
+	<package name="sectionPackage" extends="struts-default" namespace="/actions/section/"></package>  
+	<package name="staffPackage" extends="struts-default" namespace="/actions/staff/"></package> 
+	<package name="taskPackage" extends="struts-default" namespace="/actions/task/"></package> 
+	<package name="reportPackage" extends="struts-default" namespace="/actions/report/"></package> 
+	
+	
+	<!-- 自动加载国际化资源文件,开发建议为ture -->
+	<!-- <constant name="struts.i18n.reload" value="true" /> -->
+</struts>
